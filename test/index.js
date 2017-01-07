@@ -6,6 +6,11 @@ var should = require('chai').should(),
 
 describe('#brackify', function() {
 
+  it('handles null and undefined', function() {
+    brackify(null).should.equal('(null)');
+    brackify(undefined).should.equal('(undefined)');
+  });
+
   it('converts 8 to (8)', function() {
     brackify(8).should.equal('(8)');
   });
