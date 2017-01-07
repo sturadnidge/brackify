@@ -1,6 +1,6 @@
 {
   "name": "brackify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrap all the things (in brackets).",
   "main": "index.js",
   "scripts": {
